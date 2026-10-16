@@ -1,0 +1,7 @@
+SamAccountName,Enabled,CreatedUtc,LastLogonUtc
+lab-auto-old,True,2025-01-01T00:00:00Z,2026-01-01T00:00:00Z
+lab-auto-edge,True,2025-01-01T00:00:00Z,2026-07-18T00:00:00Z
+lab-auto-active,True,2025-01-01T00:00:00Z,2026-10-15T00:00:00Z
+lab-auto-never,True,2026-01-01T00:00:00Z,
+lab-auto-new,True,2026-10-15T00:00:00Z,
+lab-auto-disabled,False,2025-01-01T00:00:00Z,2026-01-01T00:00:00Z

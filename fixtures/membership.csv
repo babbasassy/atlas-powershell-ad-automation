@@ -1,0 +1,5 @@
+Group,Member,ObjectClass
+lab-auto-support,lab-auto-001,user
+lab-auto-support,lab-auto-002,user
+lab-auto-audit,lab-auto-support,group
+lab-auto-empty,,EmptyGroup

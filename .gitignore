@@ -1,0 +1,5 @@
+reports/
+tests/.run-*/
+evidence-private/
+*.log
+*.clixml
