@@ -1,0 +1,97 @@
+{
+  "GeneratedAtUtc": "2026-10-17T13:21:31.8926502Z",
+  "PowerShell": "7.6.5",
+  "Mode": "Local fixtures and process-local command doubles; no live AD",
+  "Passed": 22,
+  "Failed": 0,
+  "Tests": [
+    {
+      "Name": "all scripts parse",
+      "Passed": true
+    },
+    {
+      "Name": "valid users CSV",
+      "Passed": true
+    },
+    {
+      "Name": "valid groups CSV",
+      "Passed": true
+    },
+    {
+      "Name": "missing columns rejected",
+      "Passed": true
+    },
+    {
+      "Name": "secret column rejected",
+      "Passed": true
+    },
+    {
+      "Name": "duplicate names rejected",
+      "Passed": true
+    },
+    {
+      "Name": "LDAP injection name rejected",
+      "Passed": true
+    },
+    {
+      "Name": "blank field rejected",
+      "Passed": true
+    },
+    {
+      "Name": "empty CSV rejected",
+      "Passed": true
+    },
+    {
+      "Name": "default user operation is offline plan",
+      "Passed": true
+    },
+    {
+      "Name": "default group operation is offline plan",
+      "Passed": true
+    },
+    {
+      "Name": "nonlab server rejected before connection",
+      "Passed": true
+    },
+    {
+      "Name": "outside OU rejected before connection",
+      "Passed": true
+    },
+    {
+      "Name": "inactive boundary, never-logon, recent and disabled policy",
+      "Passed": true
+    },
+    {
+      "Name": "future timestamp rejected",
+      "Passed": true
+    },
+    {
+      "Name": "timestamp without zone rejected",
+      "Passed": true
+    },
+    {
+      "Name": "direct membership and empty group preserved",
+      "Passed": true
+    },
+    {
+      "Name": "spreadsheet formula escaped",
+      "Passed": true
+    },
+    {
+      "Name": "mock: WhatIf performs no writes",
+      "Passed": true
+    },
+    {
+      "Name": "mock: created users disabled, empty groups global/security",
+      "Passed": true
+    },
+    {
+      "Name": "mock: collision aborts entire batch",
+      "Passed": true
+    },
+    {
+      "Name": "mock: read access failure does not mean object absent",
+      "Passed": true
+    }
+  ]
+}

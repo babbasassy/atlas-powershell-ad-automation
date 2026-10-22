@@ -1,5 +1,7 @@
 # ATLAS PowerShell AD Automation
 
+**Scope: a local synthetic lab, with no separate VM required.** The deliverable is actual PowerShell execution against fixture data and simulated directory operations. All 22 local tests passed again on 17 October 2026; see the [dated test report](evidence/local-tests-20261017.json). Live AD verification is an optional future extension and is not implied by these results.
+
 Five administration scripts for a dedicated Active Directory test OU: validate input, plan or create disabled test users, plan or create empty groups, identify inactive accounts, and export direct group membership.
 
 **Current evidence: local execution only.** The fixture and command-double tests pass on PowerShell 7.6.5. No script has been executed against a real domain controller during this project. The existing ATLAS VMware lab was found, but no VMs were running and the host has no ActiveDirectory module. Live AD verification remains open.
@@ -42,4 +44,4 @@ The test harness defines process-local AD command doubles; run it in a fresh pro
 - Writes request confirmation through `ShouldProcess`. A runtime failure can leave earlier successful objects in place; there is no transaction, automatic rollback or auto-delete.
 - Reports refuse to overwrite files and escape spreadsheet formula prefixes. Keep real directory exports private.
 
-See [live verification procedure](docs/LIVE-VERIFICATION.md), [design and limits](docs/DESIGN.md), and the generated [local test report](evidence/local-tests.json). The live project acceptance criteria remain incomplete until real AD results and cleanup are captured.
+See [optional live verification procedure](docs/LIVE-VERIFICATION.md), [design and limits](docs/DESIGN.md), and the generated [local test report](evidence/local-tests.json). Live AD acceptance criteria remain unverified; they are separate from the completed local simulation tests.
